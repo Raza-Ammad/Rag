@@ -104,5 +104,109 @@ The current setup is designed for:
 │       Streamlit App       │
 │  (shows answer + context) │
 └───────────────────────────┘
+```
+🔧 Prerequisites
+
+To run this app, you’ll need:
+	•	Python 3.11+
+	•	A Google AI Studio account and a Gemini API key
+	•	A Pinecone account and:
+	•	A serverless index (e.g. named big)
+	•	(Optional) A Streamlit Community Cloud account if you want a hosted demo
+
+🚀 Deployment Option 1: Run Locally
+```
+
+1. 	Clone the Repository
+		git clone https://github.com/Raza-Ammad/Rag.git
+		cd Rag
+	
+2. 	Create and Activate a Virtual Environment
+   	macOS / Linux:
+   	python3 -m venv venv
+		source venv/bin/activate
+		Windows (PowerShell):
+		python -m venv venv
+		venv\Scripts\Activate.ps1
+
+3. 	Install Dependencies
+   	pip install -r requirements.txt
+
+4. 	Set Environment Variables (API Keys)
+		You need three environment variables:
+		•	GOOGLE_API_KEY – Gemini key from Google AI Studio
+		•	PINECONE_API_KEY – key from Pinecone dashboard
+		•	PINECONE_INDEX_NAME – name of your Pinecone index 
+
+5. 	Add Documents to docs/
+   	docs/
+		├── example1.txt
+		└── Tunnel Vision.pdf
+
+6. 	Ingest Documents into Pinecone
+   	python ingest_pinecone.py
+
+7. 	Run the Streamlit App
+   	streamlit run app.py
+```
+🚀 Deployment Option 2: Deploy to Streamlit Community Cloud
+```
+If you want a hosted demo:
+
+1.	Make the GitHub repo public (Settings → Danger Zone → Change visibility → Public).
+2.	Go to https://share.streamlit.io and log in with GitHub.
+3.	Click “New app” and select:
+	•	Repository: Raza-Ammad/Rag (or your fork)
+	•	Branch: main
+	•	Main file: app.py
+4.	In app → Settings → Secrets, add:
+		GOOGLE_API_KEY = "YOUR_GEMINI_KEY"
+		PINECONE_API_KEY = "YOUR_PINECONE_KEY"
+		PINECONE_INDEX_NAME = "big"
+5.	Save and deploy.
+```
+⚙️ Configuration
+```
+Most configuration is handled via environment variables (locally) or Streamlit secrets (in the cloud).
+Name										Where Used					Description
+GOOGLE_API_KEY					app & ingest				Gemini API key
+
+PINECONE_API_KEY				app & ingest				Pinecone API key
+
+PINECONE_INDEX_NAME			app & ingest				Pinecone index name
+
+Paths / constants:
+	•	docs/ – folder with base documents (.txt / .pdf)
+	•	app.py – main Streamlit RAG UI
+	•	ingest_pinecone.py – batch ingestion script for docs/
+
+```
+💡 How the App Works (RAG Flow)
+
+At a high level
+	1.	Documents are read, chunked, embedded, and stored in Pinecone.
+	2.	A user asks a question in the Streamlit app.
+	3.	The question is embedded and sent to Pinecone to retrieve relevant chunks.
+	4.	The app builds a prompt with the retrieved chunks + the user question.
+	5.	The prompt is sent to Gemini, which produces an answer.
+	6.	The app shows:
+	•	The answer
+	•	The chunks used (source + text)
+	•	The chat history for the session
+
+	sequenceDiagram
+    participant U as User
+    participant S as Streamlit app
+    participant P as Pinecone
+    participant G as Gemini
+
+    U->>S: Ask question
+    S->>P: Embed query & search top_k
+    P-->>S: Return chunks (text + source)
+    S->>G: Build prompt (context + question)
+    G-->>S: Answer based on context
+    S-->>U: Show answer + retrieved context
+
+
 
 
