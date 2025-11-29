@@ -99,16 +99,22 @@ Answer:"""
     return prompt
 
 
-@st.cache_resource
+
 def init_gemini_model():
     # Try Streamlit secrets first (for Streamlit Cloud), then environment variable (local)
     api_key = None
     try:
-        api_key = st.secrets["GOOGLE_API_KEY"]
+        # st.secrets is only available on Streamlit Cloud
+        api_key = st.secrets.get("GOOGLE_API_KEY", None)
     except Exception:
         api_key = os.environ.get("GOOGLE_API_KEY")
 
     if not api_key:
+        # Small debug helper – shows what secret keys exist in the sidebar
+        try:
+            st.sidebar.write("Secrets keys:", list(st.secrets.keys()))
+        except Exception:
+            st.sidebar.write("Secrets not available in this environment")
         return None, "API Key not found. Please set GOOGLE_API_KEY in environment or Streamlit secrets."
 
     genai.configure(api_key=api_key)
