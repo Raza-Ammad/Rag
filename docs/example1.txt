@@ -1,0 +1,3 @@
+Google Cloud includes services like Vertex AI and the Gemini family of models.
+Retrieval-Augmented Generation (RAG) combines document retrieval with large language models to answer questions using private data.
+Using services such as Cloud Run and Cloud SQL can help optimise cost for AI applications.

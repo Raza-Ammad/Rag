@@ -1,0 +1,365 @@
+source,chunk
+docs/example1.txt,"Google Cloud includes services like Vertex AI and the Gemini family of models.
+Retrieval-Augmented Generation (RAG) combines document retrieval with large language models to answer questions using private data.
+Using services such as Cloud Run and Cloud SQL can help optimise cost for AI applications."
+Tunnel Vision.pdf,Tunnel Vision Module: CS1813 Assessment block code: Task 5 Assignment Title: Tunnel Vision Robot Task number: 5 Name: Ammad Raza ID: 2431974 Tutor: Alessandro Pandini Group: A12   b) Requirement Speciﬁcations 1. Core Functionalities  The program should: • Start execution when the ‘Y’ button is pressed. • Set the SwiftBots’s underlights to red and move forward at a slow speed. • Capture images at r
+Tunnel Vision.pdf,"ove forward at a slow speed. • Capture images at regular intervals while moving. • Process images to determine light intensity. • Detect tunnel entry and exit using charges in light intensity. • Compute the distance travelled using calibration data. 
+• Stop if an obstacle is detected within 40 cm, take a photo of the obstacle, notify the suer, and terminate execution. • Allow manual termination by"
+Tunnel Vision.pdf,"terminate execution. • Allow manual termination by pressing the ‘X’ button. • At termination, ask the user if they want to display the execution.log. • Save the log to a test ﬁle and display its ﬁle path to the user.  2. Additional Functionalities  • Auto-Calibration Mode: Automates-distance calibration instead of requiring manual input. • Live Status Updates: Displays real-time tunnel detection a"
+Tunnel Vision.pdf,"tus Updates: Displays real-time tunnel detection and light intensity data. • Data logging for performance Tracking: Storers multiple execution logs for future analysis. • Enhanced Error Handling: Provides informative feedback for unexpected input or sensor failures.    c) Algorithm Design    
+1. Main Process Flowchart 
+ 
+
+  2.Light Intensity Detection Flowchart 
+      
+
+3.Distance Calculation Flow"
+Tunnel Vision.pdf,"ion Flowchart 
+      
+
+3.Distance Calculation Flowchart 
+          
+
+4.Obstacle Detection Flowchart 
+      	 d) User Interface Design (Command-Line UI)  1. Startup Screen  
+
+================================= Tunnel Vision - SwiftBot Program Press 'Y' to Start Press 'X' to Exit =================================  2. Running Status  Status: Moving Forward... Light Intensity: 45 (Entering Tunnel) Tunn"
+Tunnel Vision.pdf,"ward... Light Intensity: 45 (Entering Tunnel) Tunnel 1 Detected - Length: 45 cm Light Intensity: 75 (Exiting Tunnel)  3. Obstacle Detection Message  WARNING: Obstacle detected at 35 cm! Photo saved at: /logs/obstacle_01.jpg Program Terminated.  4. Execution Log Summary  Execution Log: - Total Tunnels Passed: 3 - Tunnel Lengths: [45cm, 57cm, 67cm] - Total Distance Traveled: 169cm - Time Taken: 42 s"
+Tunnel Vision.pdf,"Total Distance Traveled: 169cm - Time Taken: 42 seconds - Obstacle Detected: No Log saved at: /logs/swiftbot_log.txt   e) Planning and monitoring Progress  Week Task Status 
+1 Research and gather requirements Completed  2 Write initial requirements & UI design Completed 3 Develop light intensity detection In progress 4 Implement image processing for tunnel detection Pending 5 Test and calibrate d"
+Tunnel Vision.pdf,or tunnel detection Pending 5 Test and calibrate distance measurement  Pending 6 Implement logging & error handling Pending 7 Final testing & debugging Pending
+Tunnel Vision.pdf,Tunnel Vision Module: CS1813 Assessment block code: Task 5 Assignment Title: Tunnel Vision Robot Task number: 5 Name: Ammad Raza ID: 2431974 Tutor: Alessandro Pandini Group: A12   b) Requirement Speciﬁcations 1. Core Functionalities  The program should: • Start execution when the ‘Y’ button is pressed. • Set the SwiftBots’s underlights to red and move forward at a slow speed. • Capture images at r
+Tunnel Vision.pdf,"ove forward at a slow speed. • Capture images at regular intervals while moving. • Process images to determine light intensity. • Detect tunnel entry and exit using charges in light intensity. • Compute the distance travelled using calibration data. 
+• Stop if an obstacle is detected within 40 cm, take a photo of the obstacle, notify the suer, and terminate execution. • Allow manual termination by"
+Tunnel Vision.pdf,"terminate execution. • Allow manual termination by pressing the ‘X’ button. • At termination, ask the user if they want to display the execution.log. • Save the log to a test ﬁle and display its ﬁle path to the user.  2. Additional Functionalities  • Auto-Calibration Mode: Automates-distance calibration instead of requiring manual input. • Live Status Updates: Displays real-time tunnel detection a"
+Tunnel Vision.pdf,"tus Updates: Displays real-time tunnel detection and light intensity data. • Data logging for performance Tracking: Storers multiple execution logs for future analysis. • Enhanced Error Handling: Provides informative feedback for unexpected input or sensor failures.    c) Algorithm Design    
+1. Main Process Flowchart 
+ 
+
+  2.Light Intensity Detection Flowchart 
+      
+
+3.Distance Calculation Flow"
+Tunnel Vision.pdf,"ion Flowchart 
+      
+
+3.Distance Calculation Flowchart 
+          
+
+4.Obstacle Detection Flowchart 
+      	 d) User Interface Design (Command-Line UI)  1. Startup Screen  
+
+================================= Tunnel Vision - SwiftBot Program Press 'Y' to Start Press 'X' to Exit =================================  2. Running Status  Status: Moving Forward... Light Intensity: 45 (Entering Tunnel) Tunn"
+Tunnel Vision.pdf,"ward... Light Intensity: 45 (Entering Tunnel) Tunnel 1 Detected - Length: 45 cm Light Intensity: 75 (Exiting Tunnel)  3. Obstacle Detection Message  WARNING: Obstacle detected at 35 cm! Photo saved at: /logs/obstacle_01.jpg Program Terminated.  4. Execution Log Summary  Execution Log: - Total Tunnels Passed: 3 - Tunnel Lengths: [45cm, 57cm, 67cm] - Total Distance Traveled: 169cm - Time Taken: 42 s"
+Tunnel Vision.pdf,"Total Distance Traveled: 169cm - Time Taken: 42 seconds - Obstacle Detected: No Log saved at: /logs/swiftbot_log.txt   e) Planning and monitoring Progress  Week Task Status 
+1 Research and gather requirements Completed  2 Write initial requirements & UI design Completed 3 Develop light intensity detection In progress 4 Implement image processing for tunnel detection Pending 5 Test and calibrate d"
+Tunnel Vision.pdf,or tunnel detection Pending 5 Test and calibrate distance measurement  Pending 6 Implement logging & error handling Pending 7 Final testing & debugging Pending
+Tunnel Vision.pdf,Tunnel Vision Module: CS1813 Assessment block code: Task 5 Assignment Title: Tunnel Vision Robot Task number: 5 Name: Ammad Raza ID: 2431974 Tutor: Alessandro Pandini Group: A12   b) Requirement Speciﬁcations 1. Core Functionalities  The program should: • Start execution when the ‘Y’ button is pressed. • Set the SwiftBots’s underlights to red and move forward at a slow speed. • Capture images at r
+Tunnel Vision.pdf,"ove forward at a slow speed. • Capture images at regular intervals while moving. • Process images to determine light intensity. • Detect tunnel entry and exit using charges in light intensity. • Compute the distance travelled using calibration data. 
+• Stop if an obstacle is detected within 40 cm, take a photo of the obstacle, notify the suer, and terminate execution. • Allow manual termination by"
+Tunnel Vision.pdf,"terminate execution. • Allow manual termination by pressing the ‘X’ button. • At termination, ask the user if they want to display the execution.log. • Save the log to a test ﬁle and display its ﬁle path to the user.  2. Additional Functionalities  • Auto-Calibration Mode: Automates-distance calibration instead of requiring manual input. • Live Status Updates: Displays real-time tunnel detection a"
+Tunnel Vision.pdf,"tus Updates: Displays real-time tunnel detection and light intensity data. • Data logging for performance Tracking: Storers multiple execution logs for future analysis. • Enhanced Error Handling: Provides informative feedback for unexpected input or sensor failures.    c) Algorithm Design    
+1. Main Process Flowchart 
+ 
+
+  2.Light Intensity Detection Flowchart 
+      
+
+3.Distance Calculation Flow"
+Tunnel Vision.pdf,"ion Flowchart 
+      
+
+3.Distance Calculation Flowchart 
+          
+
+4.Obstacle Detection Flowchart 
+      	 d) User Interface Design (Command-Line UI)  1. Startup Screen  
+
+================================= Tunnel Vision - SwiftBot Program Press 'Y' to Start Press 'X' to Exit =================================  2. Running Status  Status: Moving Forward... Light Intensity: 45 (Entering Tunnel) Tunn"
+Tunnel Vision.pdf,"ward... Light Intensity: 45 (Entering Tunnel) Tunnel 1 Detected - Length: 45 cm Light Intensity: 75 (Exiting Tunnel)  3. Obstacle Detection Message  WARNING: Obstacle detected at 35 cm! Photo saved at: /logs/obstacle_01.jpg Program Terminated.  4. Execution Log Summary  Execution Log: - Total Tunnels Passed: 3 - Tunnel Lengths: [45cm, 57cm, 67cm] - Total Distance Traveled: 169cm - Time Taken: 42 s"
+Tunnel Vision.pdf,"Total Distance Traveled: 169cm - Time Taken: 42 seconds - Obstacle Detected: No Log saved at: /logs/swiftbot_log.txt   e) Planning and monitoring Progress  Week Task Status 
+1 Research and gather requirements Completed  2 Write initial requirements & UI design Completed 3 Develop light intensity detection In progress 4 Implement image processing for tunnel detection Pending 5 Test and calibrate d"
+Tunnel Vision.pdf,or tunnel detection Pending 5 Test and calibrate distance measurement  Pending 6 Implement logging & error handling Pending 7 Final testing & debugging Pending
+2431974.pdf,"Cover Page • Module and Assessment Block Codes and Titles: CS1704 Software Engineering – Assessment 2 • Assignment Title: Tunnel Vision • Robot Task Number and Title: Task 5: Tunnel Vision • My Name: Ammad Raza • My ID: 24321974 • Tutor: Alessandro Pandini • Group Name: Group A 12            
+Required Functionalities: 1. Tunnel Measurement Using Camera Input: I developed the program so that the Sw"
+2431974.pdf,"mera Input: I developed the program so that the SwiftBot continuously captures grayscale images and computes the average light intensity from each image. A baseline intensity is computed from images taken outside the tunnels, which is then used to determine when the robot enters and exits a tunnel. 2. Tunnel Detection and Distance Measurement: My program detects tunnel entry when the average light"
+2431974.pdf,"rogram detects tunnel entry when the average light intensity drops below a threshold (baseline × 0.5) and detects tunnel exit when it rises above that threshold. I calculate the distance traveled using a calibrated conversion factor (CALIBRATION_FACTOR) that transforms time intervals (in milliseconds) into centimeters. 3. Dynamic Baseline Updating: After the SwiftBot exits tunnels 1 and 2, the pro"
+2431974.pdf,"After the SwiftBot exits tunnels 1 and 2, the program recalculates a new baseline intensity to adapt to any changes in ambient lighting. However, after the final (third) tunnel exit, rather than recalculating the baseline, the program activates red underlights as an indication that the measurement process is complete. 4. Obstacle Detection: The program continuously monitors for obstacles using th"
+2431974.pdf,"ogram continuously monitors for obstacles using the ultrasound sensor. If an obstacle is detected within 40 cm, the SwiftBot stops, captures a photo of the obstacle, displays the log, turns on red under lights and immediately terminates the program by calling System.exit(5). 5. User-Controlled Termination: The measurement starts when I press the ‘Y’ button on the SwiftBot. If at any point I press"
+2431974.pdf,"’ button on the SwiftBot. If at any point I press the ‘X’ button, the program immediately displays the log and terminates using System.exit(5). 6. Logging: I implemented detailed logging to record all key events, including baseline intensity measurements, tunnel entries and exits (with corresponding tunnel lengths and average intensities), gap distances between tunnels, total distance traveled, ex"
+2431974.pdf,"ances between tunnels, total distance traveled, execution duration, and obstacle details (if any). I updated the logger to use an anonymous formatter that outputs only the log level and message, omitting date and time for a cleaner display. The log is automatically displayed and written to a text file upon termination. 7. Command-Line Interface (CLI): I provided a simple text-based interface that"
+2431974.pdf,"I): I provided a simple text-based interface that guides me through starting the measurement, manually stopping it if needed, and exiting the program. The log is automatically displayed and saved without additional user input. Additional Functionalities: • Modular Design with Inheritance: To enhance code organization and demonstrate my understanding of object-oriented programming, I refactored the"
+2431974.pdf,"g of object-oriented programming, I refactored the code using inheritance. I created an abstract base class, TunnelVisionBase, which encapsulates common image processing functions such as computing the average and baseline intensities. The main class, SwiftBotTunnelVision, extends this base class and implements the measurement loop, obstacle handling, and CLI functionality. This design reduces cod"
+2431974.pdf,"ng, and CLI functionality. This design reduces code duplication and improves maintainability. • Immediate Termination: 
+I replaced the earlier termination flag mechanism with immediate termination via System.exit(5). Now, whenever I press the ‘X’ button or an obstacle is detected, the program immediately displays the log and terminates, ensuring a swift response to critical events. • Automatic Log"
+2431974.pdf,"swift response to critical events. • Automatic Log Display: Instead of prompting me to choose whether to display the log, the program now always displays the log on screen and writes it to a file. This simplifies the user interaction and ensures that all execution details are communicated. • Cleaner Log Output: I modified the logging setup to use an anonymous formatter that excludes date and time"
+2431974.pdf,"n anonymous formatter that excludes date and time stamps. This results in a cleaner log that focuses solely on the messages and severity levels.    Changes to the Algorithm and User Interface Design In my initial design (as outlined in Assignment 2), I proposed that the SwiftBot’s underlights would be activated at the start of the measurement process. Based on testing and feedback, I made the foll"
+2431974.pdf,"ss. Based on testing and feedback, I made the following changes: • Underlights Control: I now ensure that the underlights remain off during normal measurement and are activated in red only when an obstacle is detected or after the final tunnel exit. This change reserves the red signal for critical situations and avoids unnecessary distractions during the measurement process. • Termination Handling"
+2431974.pdf,"ng the measurement process. • Termination Handling: Initially, I used a termination flag to allow for graceful shutdown. I have now replaced that mechanism with immediate termination using System.exit(5) when the ‘X’ button is pressed, or an obstacle is detected. Before termination, however, the program automatically displays and writes the log. • Use of Inheritance: To better organize the code an"
+2431974.pdf,"Use of Inheritance: To better organize the code and improve its modularity, I refactored the program using an abstract base class (TunnelVisionBase). This class handles common image processing tasks, and the main class (SwiftBotTunnelVision) extends it to implement the specific measurement logic. This design approach was not part of my original plan and adds significant value in terms of code qual"
+2431974.pdf,"n and adds significant value in terms of code quality and maintainability. • CLI Refinements: I simplified the user interaction by removing the prompt that required me to press ‘Y’ to display the log. The log is now automatically displayed and saved to a file, streamlining the termination process.  
+    Planning and Monitoring Progress Functionality  Test Input / Condition  Expected Output / Behav"
+2431974.pdf,y  Test Input / Condition  Expected Output / Behavior  Observed Output / Behavior  Pass/Fail  Comments  Baseline Intensity Computation  Place SwiftBot outside tunnels; start the program.  The program computes the baseline intensity from 5 images and displays the computed value.  Baseline intensity is computed and displayed correctly.  Pass  Baseline values are consistent with ambient lighting.  Tu
+2431974.pdf,"e values are consistent with ambient lighting.  Tunnel Entry Detection  SwiftBot enters a tunnel with lower light intensity.  Tunnel entry is detected when average intensity falls below (baseline × 0.5), and any gap is recorded.  Tunnel entry is detected and gap is recorded correctly.  Pass Works as expected under test conditions.  Tunnel Exit & Baseline Update  SwiftBot exits a tunnel and light i"
+2431974.pdf,"seline Update  SwiftBot exits a tunnel and light intensity returns to baseline.  For tunnels 1 and 2, tunnel exit is detected and a new baseline is computed and displayed; for tunnel 3, red underlights are activated and log is displayed.  Tunnel exits are detected correctly; new baseline for tunnels 1 & 2; final tunnel triggers underlights and log display.  Pass Final tunnel behaviour is as expect"
+2431974.pdf,"display.  Pass Final tunnel behaviour is as expected.  Obstacle Detection  Place an obstacle within 40 cm of SwiftBot’s path.  The SwiftBot stops, captures an image of the obstacle, displays the log, and immediately terminates the program.  Obstacle is detected; photo captured; log displayed; program terminates.  Pass Threshold confirmed through calibration tests.  User Termination (Button X)  Pre"
+2431974.pdf,"libration tests.  User Termination (Button X)  Press the ‘X’ button during measurement.  The program immediately displays the log and terminates via System.exit(5).  Immediate termination with log display.  Pass Immediate termination works correctly.  Log Display  After measurement, the log should display automatically.  The log details are automatically output on screen and written to a file usin"
+2431974.pdf,"ically output on screen and written to a file using a custom formatter (without date/time).  Log displayed and file written correctly.  Pass Log output is clear and well-formatted.  
+My Progress Summary: • Initial Planning: I began by developing a comprehensive requirements specification and an initial algorithm design (as documented in Assignment 2). I also created a preliminary project timeline"
+2431974.pdf,"2). I also created a preliminary project timeline outlining key milestones, including tunnel detection, image processing, and obstacle handling. • Weekly Progress Log: • Week 1: I focused on requirements analysis and the initial design. I set up my development environment and performed basic tests on the SwiftBot’s camera and sensor functionalities. • Week 2: I implemented the core image processin"
+2431974.pdf,". • Week 2: I implemented the core image processing functions to compute baseline and average light intensity. I also developed the initial tunnel detection logic based on these intensity values. • Week 3: I integrated the movement commands with the calibration factor, ensuring that the distance measurement was accurate. I implemented obstacle detection and photo capture functionality. • Week 4: I"
+2431974.pdf,"ction and photo capture functionality. • Week 4: I refined the user interface (CLI) and enhanced the logging and termination processes. I iteratively tested and calibrated the system, adjusting threshold values and refining the dynamic baseline updates. • Challenges Faced and How I Overcame Them: • Calibration Issues: I faced challenges in accurately mapping the SwiftBot’s speed units to physical"
+2431974.pdf,"ly mapping the SwiftBot’s speed units to physical distance. To overcome this, I conducted multiple calibration tests and adjusted the calibration factor based on empirical data. • Sensor Variability: The ultrasound sensor readings were inconsistent under different conditions. I implemented error handling and fine-tuned the OBSTACLE_DISTANCE_THRESHOLD after several rounds of testing. • UI Interacti"
+2431974.pdf,"LD after several rounds of testing. • UI Interaction: Ensuring smooth CLI interactions was challenging. I revised the termination and log display logic to ensure that user input was correctly processed, and I avoided closing the input stream prematurely. • Monitoring and Adjustments: I maintained a weekly progress log and used a Gantt chart to track my tasks and milestones. Regular testing session"
+2431974.pdf,"k my tasks and milestones. Regular testing sessions helped me identify issues early, and I made incremental improvements to the algorithm and UI based on the test results and feedback. Overall, my careful planning, continuous monitoring, and iterative testing were critical in successfully completing this task. 
+1. Underlights Behavior: • In the Report: The design specified that as soon as the prog"
+2431974.pdf,"ort: The design specified that as soon as the program starts (when button Y is pressed), the SwiftBot’s underlights should be set to red. • In My Code: I disable the underlights at the start so they remain off during measurement. They are only activated in red either when an obstacle is detected or after the final tunnel exit. This change was made to improve feedback and to reserve the red signal"
+2431974.pdf,to improve feedback and to reserve the red signal for critical events. 2. Dynamic Baseline Updating: • In the Report: The original design mentioned computing a baseline intensity from images taken outside the tunnels but did not explicitly state that the baseline should be updated after each tunnel. • In My Code: I implemented dynamic baseline recalibration after exiting tunnels 1 and 2. For the f
+2431974.pdf,"libration after exiting tunnels 1 and 2. For the final (third) tunnel, instead of computing a new baseline, I activate the red underlights. This addition enhances adaptability to varying lighting conditions. 3. User Interface (CLI) Messages: • In the Report: The proposed UI design included a startup screen with clear instructions (e.g., “Press ‘Y’ to Start” and a status screen showing real-time li"
+2431974.pdf,"to Start” and a status screen showing real-time light intensity, tunnel detection messages, etc.). • In My Code: While I adhere to a command-line interface that guides the user through starting, terminating, and log display, the exact messages and formatting differ slightly. My code outputs messages about baseline intensity updates, tunnel entry/exit, and log prompts that may not exactly match the"
+2431974.pdf,"it, and log prompts that may not exactly match the original mock-ups but still provide clear, real-time feedback. 4. Calibration and Distance Calculation: • In the Report: The specification required that the distance be computed using calibration data (since the speed units are ambiguous). • In My Code: I implement a calibration factor (CALIBRATION_FACTOR = 0.01) to convert time intervals into dis"
+2431974.pdf,"_FACTOR = 0.01) to convert time intervals into distance. Although this approach is consistent with the requirement, the actual numerical value may differ from what was initially assumed in the design phase. Code: package myswiftbot;  import swiftbot.*; import java.awt.image.BufferedImage; import java.util.logging.*; import javax.imageio.ImageIO;  public abstract class TunnelVisionBase { 
+    prote"
+2431974.pdf,"ublic abstract class TunnelVisionBase { 
+    protected SwiftBotAPI swiftBot;     protected static final Logger logger = Logger.getLogger(TunnelVisionBase.class.getName());     protected int IMAGE_INTERVAL = 200;         // milliseconds between images     protected double CALIBRATION_FACTOR = 0.01;   // cm per ms     protected double baselineIntensity = 0.0;          public TunnelVisionBase() {"
+2431974.pdf,"ty = 0.0;          public TunnelVisionBase() {         try {             swiftBot = new SwiftBotAPI();             logger.info(""SwiftBotAPI initialized successfully in TunnelVisionBase."");         } catch (Exception e) {             logger.severe(""Initialization failed in TunnelVisionBase: "" + e.getMessage());             System.out.println(""Initialization failed: "" + e.getMessage());         }"
+2431974.pdf,"lization failed: "" + e.getMessage());         }     }          protected double computeAverageIntensity(BufferedImage img) {         long sum = 0;         int width = img.getWidth();         int height = img.getHeight();         int numPixels = width * height;         for (int y = 0; y < height; y++) {             for (int x = 0; x < width; x++) {                 int rgb = img.getRGB(x, y);"
+2431974.pdf,"int rgb = img.getRGB(x, y);                 int red = (rgb >> 16) & 0xFF;                 sum += red;             }         }         return (double) sum / numPixels;     } 
+         protected double computeBaselineIntensity() {         int sampleCount = 5;         double sum = 0.0;         try {             for (int i = 0; i < sampleCount; i++) {                 Thread.sleep(IMAGE"
+2431974.pdf,"leCount; i++) {                 Thread.sleep(IMAGE_INTERVAL);                 BufferedImage img = swiftBot.takeGrayscaleStill(ImageSize.SQUARE_720x720);                 double intensity = computeAverageIntensity(img);                 sum += intensity;             }         } catch (InterruptedException ie) {             System.out.println(""Interrupted during baseline computation."");             lo"
+2431974.pdf,"ted during baseline computation."");             logger.warning(""Interrupted during baseline computation."");         }         double newBaseline = sum / sampleCount;         System.out.println(""Computed baseline intensity: "" + newBaseline);         logger.info(""Computed baseline intensity: "" + newBaseline);         return newBaseline;     } }   package myswiftbot;  import swiftbot.*; import java.a"
+2431974.pdf,"kage myswiftbot;  import swiftbot.*; import java.awt.image.BufferedImage; import java.io.File; import java.io.FileWriter; import java.io.IOException; 
+import java.util.ArrayList; import java.util.Scanner; import java.util.logging.*; import javax.imageio.ImageIO;  public class SwiftBotTunnelVision extends TunnelVisionBase {      // --- Configuration constants ---     private static final double TUN"
+2431974.pdf,constants ---     private static final double TUNNEL_ENTRY_THRESHOLD_RATIO = 0.5; // tunnel entry threshold     private static final double TUNNEL_EXIT_THRESHOLD_RATIO = 0.5;  // tunnel exit threshold     private static final int OBSTACLE_DISTANCE_THRESHOLD = 40;        // cm     private static final int EXPECTED_TUNNELS = 3;      // --- Instance state specific to this class ---     private boole
+2431974.pdf,state specific to this class ---     private boolean startPressed = false;     private boolean obstacleDetected = false;     private String obstaclePhotoPath = null;          private ArrayList<Double> tunnelLengths = new ArrayList<>();     private ArrayList<Double> tunnelAverageIntensities = new ArrayList<>();     private ArrayList<Double> gapDistances = new ArrayList<>();     private double total
+2431974.pdf,"nces = new ArrayList<>();     private double totalDistance = 0.0;     private long measurementStartTime;     private long measurementEndTime;          public SwiftBotTunnelVision() {         super(); // Call the base class constructor         try {             // Set up logging to ""swiftbot.log"" using an anonymous formatter (no date/time)             FileHandler fileHandler = new FileHandler(""swif"
+2431974.pdf,"FileHandler fileHandler = new FileHandler(""swiftbot.log"", true); 
+            fileHandler.setFormatter(new Formatter() {                 @Override                 public String format(LogRecord record) {                     return record.getLevel() + "": "" + record.getMessage() + ""\n"";                 }             });             logger.addHandler(fileHandler);             logger.setUseParentHa"
+2431974.pdf,"er(fileHandler);             logger.setUseParentHandlers(false);         } catch (Exception e) {             logger.severe(""Logging setup failed: "" + e.getMessage());             System.out.println(""Logging setup failed: "" + e.getMessage());         }     }          public void startMeasurement() {         // Ensure underlights are off at the beginning.         swiftBot.disableUnderlights();"
+2431974.pdf,"ning.         swiftBot.disableUnderlights();                  // Set up button listeners for starting and terminating the measurement.         swiftBot.disableAllButtons();         swiftBot.enableButton(Button.Y, () -> {             System.out.println(""Button Y pressed. Starting tunnel measurement..."");             logger.info(""Button Y pressed. Starting tunnel measurement..."");             startP"
+2431974.pdf,"arting tunnel measurement..."");             startPressed = true;         });                  // Immediate termination on Button X press.         swiftBot.enableButton(Button.X, () -> {             System.out.println(""Button X pressed. Terminating program..."");             logger.info(""Button X pressed. Terminating program...""); 
+            displayAndWriteLog();                          System.ex"
+2431974.pdf,"yAndWriteLog();                          System.exit(5);         });                  System.out.println(""Place SwiftBot at the tunnel entrance and press Button Y to start."");         logger.info(""Waiting for start command via Button Y."");         while (!startPressed) {             try {                 Thread.sleep(100);             } catch (InterruptedException ie) {                 logger.warn"
+2431974.pdf,"rruptedException ie) {                 logger.warning(""Sleep interrupted while waiting for start."");             }         }                  System.out.println(""Starting measurement without underlights."");         logger.info(""Starting measurement without underlights."");                  // Compute and output a baseline light intensity before entering tunnels.         baselineIntensity = computeB"
+2431974.pdf,"ring tunnels.         baselineIntensity = computeBaselineIntensity();         System.out.println(""Baseline light intensity measured: "" + baselineIntensity);         logger.info(""Baseline light intensity measured: "" + baselineIntensity);                  // Record start time and begin the measurement loop.         measurementStartTime = System.currentTimeMillis();         runMeasurementLoop();"
+2431974.pdf,"ntTimeMillis();         runMeasurementLoop();         measurementEndTime = System.currentTimeMillis();                  // Stop the SwiftBot.         swiftBot.stopMove(); 
+        logger.info(""SwiftBot stopped."");                  // Display and write the log.         displayAndWriteLog();         System.out.println(""Tunnel measurement completed."");         logger.info(""Tunnel measurement complete"
+2431974.pdf,";         logger.info(""Tunnel measurement completed."");     }          private void runMeasurementLoop() {         boolean inTunnel = false;         double segmentDistance = 0.0;         double tunnelIntensitySum = 0.0;         int tunnelImageCount = 0;         int detectedTunnels = 0;                  while (detectedTunnels < EXPECTED_TUNNELS && !obstacleDetected) {             try {"
+2431974.pdf,"obstacleDetected) {             try {                 swiftBot.move(40, 40, IMAGE_INTERVAL);                 Thread.sleep(IMAGE_INTERVAL);                                  segmentDistance += IMAGE_INTERVAL * CALIBRATION_FACTOR;                 totalDistance += IMAGE_INTERVAL * CALIBRATION_FACTOR;                                  double sensorDistance = swiftBot.useUltrasound();                 if"
+2431974.pdf,"ce = swiftBot.useUltrasound();                 if (sensorDistance < OBSTACLE_DISTANCE_THRESHOLD) {                     System.out.println(""Obstacle detected at "" + sensorDistance + "" cm!"");                     logger.warning(""Obstacle detected at "" + sensorDistance + "" cm!"");                     handleObstacle();                     break;                 } 
+                                 Buffer"
+2431974.pdf,"} 
+                                 BufferedImage img = swiftBot.takeGrayscaleStill(ImageSize.SQUARE_720x720);                 double avgIntensity = computeAverageIntensity(img);                 System.out.println(""Average Intensity: "" + avgIntensity);                 logger.info(""Average Intensity: "" + avgIntensity);                                  if (!inTunnel && avgIntensity < baselin"
+2431974.pdf,"if (!inTunnel && avgIntensity < baselineIntensity * TUNNEL_ENTRY_THRESHOLD_RATIO) {                     if (totalDistance > segmentDistance) {                         gapDistances.add(segmentDistance);                         System.out.println(""Gap recorded: "" + segmentDistance + "" cm"");                         logger.info(""Gap recorded: "" + segmentDistance + "" cm"");"
+2431974.pdf,": "" + segmentDistance + "" cm"");                     }                     inTunnel = true;                     segmentDistance = 0.0;                     tunnelIntensitySum = 0.0;                     tunnelImageCount = 0;                     System.out.println(""Tunnel entry detected."");                     logger.info(""Tunnel entry detected."");                 }                                  if"
+2431974.pdf,}                                  if (inTunnel) {                     tunnelIntensitySum += avgIntensity;                     tunnelImageCount++;                     if (avgIntensity > baselineIntensity * TUNNEL_EXIT_THRESHOLD_RATIO) {                         inTunnel = false;                         detectedTunnels++;                         tunnelLengths.add(segmentDistance);
+2431974.pdf,"tunnelLengths.add(segmentDistance);                         double avgTunnelIntensity = tunnelIntensitySum / (tunnelImageCount > 0 ? tunnelImageCount : 1);                         tunnelAverageIntensities.add(avgTunnelIntensity);                         System.out.println(""Tunnel exit detected. Tunnel "" + detectedTunnels + "" length: "" + segmentDistance + "" cm""); 
+                        l"
+2431974.pdf,"gmentDistance + "" cm""); 
+                        logger.info(""Tunnel exit detected. Tunnel "" + detectedTunnels + "" length: "" + segmentDistance + "" cm"");                                                  if (detectedTunnels < EXPECTED_TUNNELS) {                             System.out.println(""Computing new baseline intensity after tunnel exit..."");                             logger.info(""Computing"
+2431974.pdf,"logger.info(""Computing new baseline intensity after tunnel exit."");                             baselineIntensity = computeBaselineIntensity();                             System.out.println(""New baseline light intensity measured: "" + baselineIntensity);                             logger.info(""New baseline light intensity measured: "" + baselineIntensity);"
+2431974.pdf,"y measured: "" + baselineIntensity);                         } else {                             swiftBot.fillUnderlights(new int[]{255, 0, 0});                             System.out.println(""Final tunnel exit detected. Red underlights activated."");                             logger.info(""Final tunnel exit detected. Red underlights activated."");                             displayAndWriteLog();"
+2431974.pdf,"displayAndWriteLog();                         }                         segmentDistance = 0.0;                     }                 }             } catch (InterruptedException ie) {                 System.out.println(""Measurement loop interrupted."");                 logger.warning(""Measurement loop interrupted."");                 break;             } catch (Exception e"
+2431974.pdf,"break;             } catch (Exception e) {                 System.out.println(""Error during measurement: "" + e.getMessage());                 logger.severe(""Error during measurement: "" + e.getMessage());                 e.printStackTrace();                 break;             }         }     }      
+    private void handleObstacle() {         obstacleDetected = true;         swiftBot.sto"
+2431974.pdf,"obstacleDetected = true;         swiftBot.stopMove();         swiftBot.fillUnderlights(new int[]{255, 0, 0});         try {             BufferedImage obstacleImg = swiftBot.takeStill(ImageSize.SQUARE_720x720);             String filename = ""ObstaclePhoto.png"";             File file = new File(filename);             ImageIO.write(obstacleImg, ""png"", file);             obstaclePhotoPath = file."
+2431974.pdf,"png"", file);             obstaclePhotoPath = file.getAbsolutePath();             System.out.println(""Obstacle photo saved to: "" + obstaclePhotoPath);             logger.info(""Obstacle photo saved to: "" + obstaclePhotoPath);         } catch (IOException e) {             System.out.println(""Failed to save obstacle photo: "" + e.getMessage());             logger.warning(""Failed to save obstacle photo:"
+2431974.pdf,"logger.warning(""Failed to save obstacle photo: "" + e.getMessage());         }         System.out.println(""Obstacle detected. Terminating measurement."");         logger.warning(""Obstacle detected. Terminating measurement."");                  // Display the log file before exiting.         displayAndWriteLog();                  System.exit(5);     }          private void displayAndWriteLog() {"
+2431974.pdf,"}          private void displayAndWriteLog() {         long durationMillis = measurementEndTime - measurementStartTime;         String durationStr = (durationMillis / 1000.0) + "" seconds"";                  StringBuilder logBuilder = new StringBuilder(); 
+        logBuilder.append(""Tunnel Measurement Log\n"");         logBuilder.append(""-------------------------------\n"");         logBuilder.appen"
+2431974.pdf,"--------------------\n"");         logBuilder.append(""Total tunnels detected: "" + tunnelLengths.size() + ""\n"");         for (int i = 0; i < tunnelLengths.size(); i++) {             logBuilder.append(""Tunnel "" + (i + 1) + "" length: "" + tunnelLengths.get(i) + "" cm, "");             logBuilder.append(""Average intensity: "" + tunnelAverageIntensities.get(i) + ""\n"");         }         logBuilder.append(""G"
+2431974.pdf,"i) + ""\n"");         }         logBuilder.append(""Gap distances between tunnels (cm): "");         for (Double gap : gapDistances) {             logBuilder.append(gap + "" "");         }         logBuilder.append(""\n"");         logBuilder.append(""Total distance traveled: "" + totalDistance + "" cm\n"");         logBuilder.append(""Execution duration: "" + durationStr + ""\n"");         logBuilder.append(""Obs"
+2431974.pdf,"urationStr + ""\n"");         logBuilder.append(""Obstacle detected: "" + (obstacleDetected ? ""Yes"" : ""No"") + ""\n"");         if (obstacleDetected) {             logBuilder.append(""Obstacle photo file: "" + obstaclePhotoPath + ""\n"");         }                  // Always display the log on screen.         System.out.println(logBuilder.toString());                  String logFilename = ""TunnelLog.txt"";"
+2431974.pdf,"String logFilename = ""TunnelLog.txt"";         try (FileWriter writer = new FileWriter(logFilename)) {             writer.write(logBuilder.toString());             File logFile = new File(logFilename);             System.out.println(""Log written to file: "" + logFile.getAbsolutePath());             logger.info(""Log written to file: "" + logFile.getAbsolutePath());         } catch (IOExcepti"
+2431974.pdf,"ile.getAbsolutePath());         } catch (IOException e) {             System.out.println(""Error writing log file: "" + e.getMessage()); 
+            logger.warning(""Error writing log file: "" + e.getMessage());         }     }          public void runCLI() {         Scanner scanner = new Scanner(System.in);         System.out.println(""SwiftBot Tunnel Vision CLI"");         System.out.println(""Command"
+2431974.pdf,"Vision CLI"");         System.out.println(""Commands: start, stop, log, exit"");         while (true) {             System.out.print(""Enter command: "");             String command = scanner.nextLine().trim().toLowerCase();             switch (command) {                 case ""start"":                     startMeasurement();                     break;                 case ""stop"":                     sw"
+2431974.pdf,"case ""stop"":                     swiftBot.stopMove();                     System.out.println(""SwiftBot stopped manually."");                     logger.info(""SwiftBot stopped manually."");                     break;                 case ""log"":                     System.out.println(""Log file: swiftbot.log"");                     break;                 case ""exit"":                     s"
+2431974.pdf,"case ""exit"":                     swiftBot.stopMove();                     logger.info(""Exited CLI"");                     System.out.println(""Exiting CLI."");                     System.exit(5);                 default:                     System.out.println(""Unknown command""); 
+            }         }     }     public static void main(String[] args) {         new SwiftBotTunnelVisio"
+2431974.pdf,n(String[] args) {         new SwiftBotTunnelVision().runCLI();     } }
+EmiratesTicket2.pdf,"Ticket number: 176 2393628051
+Scan the bar code or use the ticket number above at 
+the self check-in points in the airport. Ticket & receipt
+Passenger name
+RAZA/
+AMMADMR
+Membership Tier
+BLUEEmirates Skywards number
+EK781399301Issued by / Date
+AGT 86491845 AE
+10SEP2025EKWWWWW DUBAI / IBE GLOBAL
+Your booking reference: GRL4KB
+Your ticket is stored in our booking system. This receipt is your record"
+EmiratesTicket2.pdf,"our booking system. This receipt is your record 
+of your ticket and is part of your conditions of carriage. For more 
+information you can read the notices and conditions of carriage .
+You might need to show this receipt to enter the airport or to prove 
+your return or onwards travel to immigration.Check with your departure airport for restrictions on the carriage of 
+liquids, aerosols and gels in"
+EmiratesTicket2.pdf,"on the carriage of 
+liquids, aerosols and gels in hand baggage and check your visa 
+requirements.
+Please check our Dangerous Goods information  to find out what you 
+can and can’t bring on board. Some substances and certain items are 
+restricted, like portable electronic devices, spare batteries or smart 
+bags.
+......................................................................................"
+EmiratesTicket2.pdf,"........................................................................................................................................................................................................................................................................................................
+Check in online, or 90 minutes 60 minutes 45 minutes
+Check in at the airport. At most
+airports you need"
+EmiratesTicket2.pdf,"Check in at the airport. At most
+airports you need to arrive 3 hours
+before departure, but it can be
+up to 4 hours  to complete all the
+travel requirements. Please check
+the best time to arrive for your
+journey below.90 minutes before take-off go
+through passport control.60 minutes before take-off be
+ready at the gate (Premium
+Economy, Economy Class).45 minutes before take-off be
+ready at the gate"
+EmiratesTicket2.pdf,"s).45 minutes before take-off be
+ready at the gate (First Class,
+Business Class).
+Your travel information
+All times shown are local for each city
+Departing » From Lahore, Pakistan
+Leg 1of2 | Lahore (LHE) toDubai (DXB) | Operated by Emirates (equipment owner - Emirates)
+Flight
+EK625
+Economy
+FlexCheck-in at
+27Sep2025
+05:30Departure
+27Sep2025
+09:00
+LAHORE
+Departing LHE, Alama Iqbal International Airp"
+EmiratesTicket2.pdf,"HORE
+Departing LHE, Alama Iqbal International Airport
+Seat Status
+ConfirmedArrival
+27Sep2025
+11:15
+DUBAI
+Arriving DXB, Dubai International Airport
+Terminal 3
+Coupon validity:  not before 27Sep2025  /  not after 27Sep2025  Baggage 40Kgs
+Leg 2of2 | Dubai (DXB) toLondon Heathrow  (LHR) | Operated by Emirates (equipment owner - Emirates)
+Flight
+EK003
+Economy
+FlexCheck-in at
+27Sep2025
+11:15Departure
+27"
+EmiratesTicket2.pdf,"conomy
+FlexCheck-in at
+27Sep2025
+11:15Departure
+27Sep2025
+14:15
+DUBAI
+Departing DXB, Dubai International Airport
+Terminal 3
+Seat Status
+ConfirmedArrival
+27Sep2025
+18:40
+LONDON
+Arriving LHR, London Heathrow Airport
+Terminal 3
+Coupon validity:  not before 27Sep2025  /  not after 27Sep2025  Baggage 40Kgs
+© Emirates. All rights reserved Emirates Experience  | Check-in Online  | Manage a Booking  | Bag"
+EmiratesTicket2.pdf,"ence  | Check-in Online  | Manage a Booking  | Baggage  | Contact us Page 1 of 3
+Ticket number: 176 2393628051
+Scan the bar code or use the ticket number above at 
+the self check-in points in the airport.
+Baggage allowance
+ Emirates Skywards
+ Dining
+ Young flyers
+Enjoy discounted rates when you
+purchase extra baggage online.Earn Miles on every flight and
+enjoy a world of benefits.Explore the world"
+EmiratesTicket2.pdf,"ht and
+enjoy a world of benefits.Explore the world in every bite of
+our regionally inspired meals.Kids get top flight treatment with
+packs, special meals and more.
+Fare information
+Fare
+GBP546Equivalent fare
+-Taxes / Fees / Charges (TFC)
+GBP100.00-OD PD19.00-F6
+PD90.00-GB PD34.60-RG PD5.50-
+SP PD51.71-UB PD7.70-YD
+PD2.20-ZR PD260.00-YQTotal fare (Incl. TFC)
+GBP212AForm of payment
+CREDIT CARD
+Fare"
+EmiratesTicket2.pdf,"ncl. TFC)
+GBP212AForm of payment
+CREDIT CARD
+Fare calculation
+LON EK X/DXB EK LHE Q LONLHE25.60 343.80ULEESGB1/EOL4 EK X/DXB EK LON Q LHELON38.41 291.30KLEESGB1/EOL4 NUC699.11END ROE0.780956
+Additional information
+FQEK781399301 NON-END/FLEX
+Hazardous materials and substance control policy
+The carriage of certain hazardous materials like aerosols, fireworks and inflammable liquids aboard the aircra"
+EmiratesTicket2.pdf,"ireworks and inflammable liquids aboard the aircraft is forbidden. Personal motorised vehicles such as
+hoverboards, mini-Segways and smart or self-balancing wheels, are also forbidden on our flights as they contain large lithium batteries. For safety reasons, we can’t accept
+these as part of checked-in baggage or as hand luggage. If you do not understand this restriction, further information may b"
+EmiratesTicket2.pdf,"rstand this restriction, further information may be obtained from your airline.
+The United Arab Emirates (UAE) has a very strict, zero-tolerance, anti-drugs policy. All airports within the UAE conduct thorough searches using highly
+sensitive equipment. Possession of any amounts of illegal drugs by travellers entering or transiting the UAE will be subject to punishment.
+Emirates cabin baggage allow"
+EmiratesTicket2.pdf,"ubject to punishment.
+Emirates cabin baggage allowances
+Economy Class:
+One piece of carry-on baggage is permitted with maximum dimensions: 55 x 38 x 22cm (22 x 15 x 8 inches) and maximum weight: 7kg (15lb).
+Note: If you’re boarding in India, your carry-on baggage may not exceed 115cm or 45.3 inches (length + width + height). If your itinerary originates from Brazil, you’re
+allowed a carry-on weigh"
+EmiratesTicket2.pdf,"nates from Brazil, you’re
+allowed a carry-on weighing 10kg (22lb).
+Premium Economy:
+One piece of carry-on baggage is permitted with maximum dimensions: 55 x 38 x 22cm (22 x 15 x 8 inches) and maximum weight: 10kg (22lb).
+Note: If you're boarding in India, your carry-on baggage may not exceed 115cm or 45.3 inches (length + width + height).
+First Class and Business Class:
+Two pieces of carry-on bagg"
+EmiratesTicket2.pdf,"ss and Business Class:
+Two pieces of carry-on baggage permitted: one briefcase plus either one handbag or one garment bag. The briefcase may not exceed 45 x 35 x 20cm (18 x 14 x 8 inches);
+the handbag may not exceed 55 x 38 x 22cm (22 x 15 x 8 inches); the garment bag can be no more than 20cm (8 inches) thick when folded. The weight of each piece must
+not exceed 7kg (15lb). The total combined weig"
+EmiratesTicket2.pdf,"ust
+not exceed 7kg (15lb). The total combined weight of both pieces may not be more than 14kg (30lb).
+Infants in all cabin classes are permitted one checked-in bag that may not exceed 55 x 38 x 22 cm (22 x 15 x 8 inches) in size and 23kg (50lb) where the piece concept
+applies, or 10kg (22lb) where the weight concept applies. In addition, customers travelling with infants (and without a child seat)"
+EmiratesTicket2.pdf,"travelling with infants (and without a child seat) are permitted to bring one carry-cot or one
+fully collapsible stroller into the cabin if there is room. If there is no space for these items in the cabin, they will have to be checked. However, if checked, they will not count
+against your baggage allowance.
+Emirates checked baggage notification
+Checked baggage allowances vary by fare type and clas"
+EmiratesTicket2.pdf,"cked baggage allowances vary by fare type and class of travel. Check your baggage allowance, however please note that any individual item weighing more than 32kg
+cannot be accepted, for health and safety reasons.
+© Emirates. All rights reserved Emirates Experience  | Check-in Online  | Manage a Booking  | Baggage  | Contact us Page 2 of 3
+Ticket number: 176 2393628051
+Scan the bar code or use the"
+EmiratesTicket2.pdf,"mber: 176 2393628051
+Scan the bar code or use the ticket number above at 
+the self check-in points in the airport.
+Ticket number: 176 2393628051
+Scan the bar code or use the ticket number above at 
+the self check-in points in the airport.
+ Inflight entertainment
+Fall in love with a classic romance or immerse yourself in
+the latest edge-of-the-seat blockbuster - let our ice inflight
+entertainment t"
+EmiratesTicket2.pdf,"blockbuster - let our ice inflight
+entertainment take you to places you won't find on a map.
+Choose from over 6,500 channels of movies, TV shows and
+music from around the world and in multiple languages. Or
+challenge other passengers to a range of gripping games.
+© Emirates. All rights reserved Emirates Experience  | Check-in Online  | Manage a Booking  | Baggage  | Contact us Page 3 of 3"
+EmiratesTicket2.pdf,king  | Baggage  | Contact us Page 3 of 3
